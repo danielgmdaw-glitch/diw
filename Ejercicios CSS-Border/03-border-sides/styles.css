@@ -1,0 +1,16 @@
+.striped, .callout 
+{ 
+    padding:16px; 
+    margin:12px 0; 
+    background:#fff;
+}
+.striped 
+{
+    border-bottom: 4px solid blue;/*borde inferior*/
+    border-top: 4px solid purple;/*borde superior*/
+}
+.callout 
+{
+    border-left: 6px solid red;
+    border-right: 6px solid yellow;
+}

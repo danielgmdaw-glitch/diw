@@ -1,0 +1,20 @@
+.box 
+{ 
+    width: 140px; 
+    height: 60px; 
+    display:grid; 
+    place-items:center; 
+    margin:10px 0; 
+}
+.one 
+{
+    border: 5px inset blue; /*elemento parece hundido*/
+}
+.two 
+{
+    border: 3px ridge red;/*borde elevado con efecto de cresta*/
+}
+.three 
+{
+    border: 5px outset green; /*es un estilo de borde 3D*/
+}

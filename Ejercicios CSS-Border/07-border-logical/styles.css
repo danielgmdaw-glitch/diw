@@ -1,0 +1,7 @@
+.note 
+{ 
+    padding:12px; 
+    background:#fef3c7; 
+    /* Borde al inicio de línea según dirección del texto */
+    border-inline-start: 4px solid orange;
+}

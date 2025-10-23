@@ -1,0 +1,28 @@
+.card 
+{ 
+    width: 140px; 
+    height: 70px; 
+    display:grid; 
+    place-items:center; 
+    margin:12px 0; 
+    background:#f9fafb; 
+}
+.a 
+{
+    border-style: solid; /*borde sólido*/
+    border-width: 5px;
+    border-color: blue;
+}
+.b 
+{
+    border-style: dotted;/*borde punteado*/
+    border-width: 3px;
+    border-color: red;
+}
+.c 
+{
+    border-style: dashed; /*borde discontinuo*/
+    border-width: 2px;
+    border-color: green;
+}
+

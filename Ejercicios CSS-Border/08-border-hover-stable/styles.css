@@ -1,0 +1,13 @@
+.btn 
+{
+  padding:10px 16px;
+  background:#111827;
+  color:#fff;
+  border: 4px solid transparent;
+  border-radius: 6px; 
+  transition: border-color 0.3s; /* animación suave */
+}
+.btn:hover 
+{
+  border-color: yellow; /* color al pasar el ratón */
+}

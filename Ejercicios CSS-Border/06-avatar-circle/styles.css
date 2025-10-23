@@ -1,0 +1,15 @@
+.avatar 
+{
+    width:120px; 
+    height:120px; 
+    overflow:hidden; /*asegura que la imagen recortada no sobresalga del círculo.*/
+    border-radius: 50%; /*convierte cualquier cuadrado en círculo.*/
+    border: 4px solid #fff;
+}
+.avatar img 
+{ 
+    width:100%;
+    height:100%; 
+    object-fit:cover; 
+    display:block; 
+}
