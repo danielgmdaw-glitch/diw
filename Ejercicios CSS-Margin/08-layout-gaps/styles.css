@@ -1,0 +1,20 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;          /* permite varias filas */
+  margin: -8px;             /* margen negativo compensa los márgenes de las tarjetas */
+  background: #f7f7f7;
+  border: 1px solid #ccc;   /* evita colapso de márgenes verticales */
+  padding: 8px;             /* añade un espacio interno visible */
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  height: 80px;
+  display: grid;
+  width: 30%; /* cada tarjeta ocupa ~30% */
+  margin: 16px; /* separación horizontal aproximada */
+  float: left; 
+  box-sizing: border-box;
+  place-items:center;/*centra contenido horizontal y vertical */
+}

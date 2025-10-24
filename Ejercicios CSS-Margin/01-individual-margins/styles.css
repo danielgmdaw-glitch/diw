@@ -1,0 +1,15 @@
+.card 
+{ 
+    width: 100px; 
+    height: 60px; 
+    background:#e0e0e0; 
+    display:grid; 
+    place-items:center; 
+    border:1px solid #bbb; 
+}
+.a, .b, .c /*Como tienen los mismos border se puede poner así*/
+{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+

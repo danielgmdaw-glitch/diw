@@ -1,0 +1,28 @@
+.box 
+{ 
+    width: 120px; 
+    height: 50px; 
+    background:#cde; 
+    display:grid; 
+    place-items:center; 
+    border:1px solid #9ab; 
+}
+/* margin con 2 valores*/
+.one 
+{
+    margin: 30px 60px; /* 30px arriba/abajo, 60px izquierda/derecha */
+}
+
+/* margin con 3 valores*/
+.two 
+{
+    margin: 50px 80px 40px; /* 50 arriba, 80 izq/der, 40 abajo */
+}
+
+/* margin con 4 valores*/
+.three 
+{
+    margin: 70px 100px 60px 40px; /* 70 arriba, 100 derecha, 60 abajo, 40 izquierda */
+}
+
+
